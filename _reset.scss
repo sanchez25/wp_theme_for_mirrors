@@ -1,0 +1,96 @@
+:root{
+    --background: #252d40;
+    --content: #1c212e;
+    --shadow-header: 0 6px 12px 0 #0006;
+    --shadow-btn: 0 2px 8px 0 #27272733;
+    --shadow-card: 0 8px 16px 0 #191e2d99;
+    --radius: 8px;
+    --text: #fff;
+    --link: #2dd890;
+    --btn-reg: linear-gradient(180deg,#5cd995,#3a9b84);
+    --btn-log: linear-gradient(180deg,#4b9de8,#416fb4);
+    --hover-btn-reg: linear-gradient(180deg,#6cffaf,#3a9b84);
+    --hover-btn-log: linear-gradient(180deg,#52adff,#416fb4);
+    --error: linear-gradient(180deg,#1d2e5b 0.06%,#5d6c97 99.97%);
+    --banner: linear-gradient(180deg,#3c567d,#1c212e);
+    --border: #ffffff1a;
+    --shadow-text: 0 0 4px #2dd890, 0 0 8px #2dd890;
+    --apk: #2D3B64;
+    --border-apk: #363B41;
+    --radius-promo: 100px;
+    --shadow-promo: 0px 0px 8px 2px #6ABF82 inset;
+    --promocode: #0F1E39;
+    --text-bonus: #8191B5;
+    --radius-bonus: 29px;
+    --bonus-back: #0F1E39;
+    --radius-reg: 16px;
+    --strong: #6ABF82;
+    --reg-color: linear-gradient(233.46deg, #2B4696 0%, #4E8CDE 100%);
+}
+
+*, *:before, *:after{
+    box-sizing: border-box;
+}
+html { scroll-behavior: smooth; }
+html, body, div, span, object, iframe, figure, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, code, em, img, small, strike, strong, sub, sup, tt, b, u, i, ol, ul, li, fieldset, form, label, table, caption, tbody, tfoot, thead, tr, th, td, main, canvas, embed, footer, header, nav, section, video{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font-family: "Inter";
+    vertical-align: baseline;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    text-size-adjust: none;
+}
+
+body {
+    color: var(--text);
+}
+
+a {
+    text-decoration: none;
+    color: var(--link);
+}
+
+footer, header, nav, section, main{
+    display: block;
+}
+
+body{
+    line-height: 1;
+}
+
+ul{
+    list-style: none;
+}
+
+button {
+    cursor: pointer;
+}
+
+blockquote, q{
+    quotes: none;
+}
+
+blockquote:before, blockquote:after, q:before, q:after{
+    content: '';
+    content: none;
+}
+
+table{
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+input{
+    -webkit-appearance: none;
+    border-radius: 0;
+}
+
+.wp-block-table {max-width: 100%;overflow-x:auto; padding-bottom: 20px;position: relative;}
+.wp-block-table table {width:100%;  border-collapse: collapse; margin-bottom:20px; border-radius: var(--radius); overflow: hidden;}
+.wp-block-table table td { text-align:center; padding:15px;}
+.wp-block-table table tr {background:var(--background);}
+.wp-block-table table tr:nth-child(2n) {background:var(--content);}
+.wp-block-table table td {color:var(--text);}
